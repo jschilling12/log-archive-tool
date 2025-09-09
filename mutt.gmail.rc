@@ -1,0 +1,11 @@
+# mutt.gmail.rc  (chmod 600)
+set from        = "YOUR_GMAIL@gmail.com"
+set realname    = "YOUR NAME"
+
+# Option A: implicit TLS (port 465)
+set smtp_url    = "smtp://YOUR_GMAIL@gmail.com@smtp.gmail.com:465/"
+set smtp_pass   = "YOUR16CHARAPPPASSWORD"
+
+set ssl_force_tls = yes
+set use_from      = yes
+set envelope_from = yes
